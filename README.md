@@ -11,7 +11,7 @@
 * [Additional resources](#additional-resources)
 
 <a name="summary"></a>
-##Summary
+## Summary
 This sample demonstrates how to save custom settings inside an Excel Add-in. The add-in stores data as key/value pairs, using the JavaScript API for Office property bag, browser cookies, web storage (**localStorage** and **sessionStorage**), or by storing the data in a hidden div in the document. The add-in also demonstrates best practices for implementing multiple-page navigation in an add-in for Office.
 
 <a name="prerequisites"></a>
@@ -45,11 +45,11 @@ The CodeSample_PersistCustomSettings project, including:
 2. Use the add-in’s interface to save data as key/value pairs and to retrieve a stored value using its key. 
 
 <a name="troubleshooting"></a>
-##Troubleshooting
+## Troubleshooting
 If the add-in fails to install, ensure that the  **SourceLocation** element in the CodeSample_PersistCustomSettings.xml has the correct URL value for the **DefaultValue** attribute.
 
 <a name="questions"></a>
-##Questions and comments##
+## Questions and comments##
 
 - If you have any trouble running this sample, please [log an issue](https://github.com/OfficeDev/Excel-Add-in-JavaScript-PersistCustomSettings/issues).
 - Questions about Office Add-in development in general should be posted to [Stack Overflow](http://stackoverflow.com/questions/tagged/office-addins). Make sure that your questions or comments are tagged with [office-addins].
